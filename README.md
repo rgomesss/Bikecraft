@@ -1,2 +1,2 @@
 # Bikecraft
- projeto em html e css do curso Origamid
+ projeto em html e css
