@@ -71,6 +71,10 @@ p {
   gap: 20px;
   justify-items: end;
 }
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
 .detalhe {
   width: 60px;
   height: 4px;
@@ -113,4 +117,30 @@ p {
 }
 .vantagens-item p {
   grid-column: 2;
+}
+@media (max-width: 1000px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+  .menu {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .detalhe {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
 }
