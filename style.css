@@ -143,4 +143,7 @@ p {
   .subtitulo {
     font-size: 3rem;
   }
+  .menu {
+    gap: 20px;
+  }
 }
