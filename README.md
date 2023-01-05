@@ -1,6 +1,6 @@
 # Bikecraft
 
-Com esse projeto reforcei meus conhecimentos no Flexbox, aprendi a usar o grid, Pseudo Classes e Pseudo Elements
+Com esse projeto reforcei meus conhecimentos no Flexbox, aprendi a usar o grid, Pseudo Classes e Pseudo Elements, alem de deixar a pagina responsivel para dispositivos mobile.
 
 <html>
 <head>
